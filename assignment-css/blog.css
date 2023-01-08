@@ -131,3 +131,12 @@ footer{
     padding: 15px;
     border-radius: 5px;
 }
+.btn-contact{
+    margin: 15px;
+    border-radius: 5px;
+    padding: 20px;
+    color: white;
+    background-color: orange;
+    font-weight: 800;
+    font-size: 15px;
+}
