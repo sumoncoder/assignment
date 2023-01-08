@@ -36,6 +36,16 @@ header {
 .hero-text{
     width: 40%;
 }
+.hero-text h2{
+    font-weight:900;
+    font-size: 50px;
+    margin-bottom: 15px;
+
+}
+.hero-text p{
+    margin-bottom: 15px;
+    color: darkgray;
+}
 .failures-year{
     display: flex;
     padding: 100px 0;
@@ -45,9 +55,19 @@ header {
 .person-details{
     padding-left: 100px;
 }
+.person-details h2{
+    font-weight:600;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
 .person-details p{
     width: 70%;
-    margin: 15px 0;
+    margin-bottom: 15px;
+    color: darkgray;
+}
+.person-details li{
+    margin: 10px;
+    color: darkgray;
 }
 .my-plans{
     display: flex;
@@ -100,6 +120,7 @@ footer{
 }
 .social{
     display: flex;
+    margin-top: 15px;
 }
 .social img {
     width: 30px;
@@ -110,7 +131,14 @@ footer{
     width: 40%;
     }
 .future-text p{
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.future-text h2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 40px;
 }
 .subscribe-area{
     display: block;
